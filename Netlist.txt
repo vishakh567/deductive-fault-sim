@@ -1,0 +1,25 @@
+    1     1gat inpt    1   0
+    2     2gat inpt    1   0
+    3     3gat inpt    2   0
+    4     4fan from     3gat
+    5     5fan from     3gat
+    6     6gat inpt    1   0
+    7     7gat inpt    1   0
+    8     8gat nand    1   2
+     1     4
+    9     9gat or    2   2
+     5     6
+   10    10fan from     9gat
+   11    11fan from     9gat
+   12    12gat nand    2   2
+     2    10
+   13    13gat not     1   1
+     7
+   15    15fan from    12gat
+   16    16fan from    12gat
+   14    14gat nand    1   2
+    11     13
+   17    17gat and    0   2
+    8    15
+   18    18gat nor    0   2
+    14    16
